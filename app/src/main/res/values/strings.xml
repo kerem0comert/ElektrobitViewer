@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ElektrobitViewer</string>
+    <string name="country_list_label">Select a Country</string>
+    <string name="site_list_label">Select a Site in {country}</string>
+    <string name="site_label">Site: {SİTE}</string>
+    <string name="problem_loading_results">There was a problem loading results.</string>
+    <string name="reload">Reload</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="site"
+            type="com.keremcomert.elektrobitviewer.model.Site"
+            />
+
+    </data>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivSite"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvSiteName"
+        style="@style/Country_TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@{site.name}"
+        tools:text="Berlin" />
+
+</LinearLayout>
+
+</layout>

@@ -1,0 +1,40 @@
+[
+    {
+        "id": 0,
+        "name": "Germany",
+        "sites": [
+            {
+                "id": 0,
+                "name": "Berlin",
+                "address": "Franklinstraße 26 10587 Berlin",
+                "photoUrl": "https://www.berlin.de/binaries/asset/image_assets/6340464/ratio_2_1/1685015071/1500x750/"
+            },
+            {
+                "id": 1,
+                "name": "Ulm",
+                "address": "Lise-Meitner-Str. 10 89081 Ulm, Germany",
+                "photoUrl": "https://d23rjziej2pu9i.cloudfront.net/wp-content/uploads/2021/04/16020709/About-EB.jpg"
+            }
+        ],
+        "photoUrl": "https://img.uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/germany-flag-icon.png"
+    },
+    {
+        "id": 1,
+        "name": "Romania",
+        "sites": [
+            {
+                "id": 0,
+                "name": "Brasov",
+                "address": "10B Calea Bucuresti Street,Brasov, 500365",
+                "photoUrl": "https://www.travelsewhere.net/wp-content/uploads/2020/01/DSC_1102-11.jpg"
+            },
+            {
+                "id": 1,
+                "name": "Timisoara",
+                "address": "10 Coriolan Brediceanu Street (700 Square), Timisoara, 300011",
+                "photoUrl": "https://xn--urlaub-in-rumnien-2qb.de/wp-content/uploads/2017/10/DJI_0203-1-1.jpg"
+            }
+        ],
+        "photoUrl": "https://www.samael.info/wp-content/uploads/2020/06/romania-flag.jpg"
+    }
+]
